@@ -164,3 +164,5 @@ EMAIL_HOST_USER = 'proyec.i210@gmail.com'
 EMAIL_HOST_PASSWORD = 'ocqr hryj waft gofb'
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+CSRF_TRUSTED_ORIGINS = ['https://*.github.dev', 'https://*.app.github.dev', 'https://localhost:8000', 'http://localhost:8000']
+
